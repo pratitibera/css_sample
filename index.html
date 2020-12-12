@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>INDEX</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600,300' rel='stylesheet' type='text/css'>
+  <style> 
+    .left_section{
+      background-color: #482287;
+      padding: 30px;
+      text-align: center;
+    }
+    .left_section h4{
+      color: white; 
+      font-weight: 500;
+      font-size: 32px;
+      margin-top: 40px;
+    }
+    .left_section span{
+      color: #f48720;
+    }
+    .left_section h6{
+      color: white; 
+    }
+    .first_head {
+      margin-top: 60px;
+      font-size: 18px;
+     }
+     .mid_head{
+      font-size: 18px;
+     }
+     .bar_message{
+     border-radius: 2.2em;
+      background-color: #5f409d;
+      color: white;
+      padding: 18px;
+      position: relative;
+      width: 650px;
+      height: 4em;
+      margin-left: -70px;
+      margin-top: 40px;
+    }
+    .bar_message h5{
+      margin-left: 110px;
+    }
+    .bar_message span{
+      color: #2eb82e;
+      font-weight: bolder;
+    }
+    .second_head{
+      margin-top: 30px;
+      font-size: 22px;
+     }
+     .third_head{
+      margin-top: 15px;
+      font-size: 22px;
+     }
+     .left_section button{
+      background-color: #f50048;
+      padding: 8px;
+      color: white;
+      border-radius: 1.5em;
+      font-size: 20px;
+      font-weight: bold;
+      width: 170px;
+      letter-spacing: .07em;
+      margin-top: 50px;
+     }
+
+     /*Second section styling*/
+     .right_section {
+      background-color: #3d0b7c;
+      text-align: center;
+      padding: 30px;
+      padding-left: 110px;
+      padding-right: 110px;
+    }
+    .discounts{
+      color: white;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .hoodie{
+      margin-top: 70px;
+      display:block;
+      -webkit-transform: rotate(-90deg); 
+      -moz-transform: rotate(-90deg); 
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .reciept{
+      margin-top: 100px;
+      display:block;
+      -webkit-transform: rotate(-90deg); 
+      -moz-transform: rotate(-90deg); 
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .multiple{
+      margin-top: 90px;
+      display:block;
+      -webkit-transform: rotate(-90deg); 
+      -moz-transform: rotate(-90deg); 
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .details{
+      text-align: left;
+      color: white;
+    }
+    .details h1{
+      font-weight: bold;
+    }
+    .details h4{
+      color: black;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .details h6{
+      color: white;
+      font-size: 12px;
+      letter-spacing: .07em;
+    }
+
+    /*Responsiveness*/
+    @media(max-width: 1500px){
+      .leftdiv{
+        padding: 20px;
+        border-top-left-radius: 15px; 
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 15px; 
+      }
+      .details{
+        border-top-left-radius: 0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 0px; 
+      }
+
+    }
+     @media(max-width: 1220px){
+      .bar_message{
+        width: 590px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 100px;
+    }
+     }
+      @media(max-width: 1100px){
+      .bar_message{
+        width: 560px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 80px;
+    }
+     }
+     @media(max-width: 1036px){
+      .bar_message{
+        width: 530px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 70px;
+    }
+     }
+     @media(max-width: 1024px) {
+       .hoodie{
+      margin-top: 70px;
+    }
+    .reciept{
+      margin-top: 120px;
+    }
+    .multiple{
+      margin-top: 110px;
+    }
+    .bar_message{
+        width: 500px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 80px;
+    }
+    
+
+     }
+      @media(max-width: 1015px){
+        .right_section{
+          padding: 60px;
+        }
+        .reciept{
+      margin-top: 110px;
+    }
+    .multiple{
+      margin-top: 100px;
+    }
+    .bar_message{
+        width: 460px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 80px;
+    }
+
+      }
+      @media(max-width: 840px){
+        .bar_message{
+        width: 430px;
+      }
+      .bar_message h5{
+        font-size: 14px;
+      margin-left: 80px;
+    }
+
+      }
+
+      @media(max-width: 829px){
+        .mid_head{
+          font-size: 16px;
+        }
+        .right_section{
+          padding: 50px;
+        }
+
+      }
+      @media(max-width: 777px){
+        .right_section{
+          padding: 45px;
+        }
+        .bar_message{
+        width: 700px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 150px;
+    }
+
+      }
+      @media(max-width: 767px){
+        .right_section{
+          padding: 105px;
+        }
+        .hoodie{
+          margin-top: 60px;
+
+        }
+        .reciept{
+      margin-top: 90px;
+    }
+    .multiple{
+      margin-top: 80px;
+    }
+    .bar_message{
+        width: 680px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 130px;
+    }
+
+      }
+       @media(max-width: 700px){
+        .hoodie{
+          margin-top: 70px;
+
+        }
+        .reciept{
+      margin-top: 100px;
+    }
+    .multiple{
+      margin-top: 90px;
+    }
+    .bar_message{
+        width: 640px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 100px;
+    }
+
+      }
+      @media(max-width: 603px) {
+        .bar_message{
+        width: 580px;
+      }
+      .bar_message h5{
+        font-size: 16px;
+      margin-left: 100px;
+    }
+
+      }
+
+       @media(max-width: 575px){
+      .hoodie, .reciept, .multiple{
+        display: inline;
+      }
+
+      .leftdiv{
+        padding: 20px;
+        border-top-left-radius: 15px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px; 
+      }
+      .details{
+        border-top-left-radius: 0px; 
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px; 
+      }
+      .bar_message{
+        width: 550px;
+      }
+      .bar_message h5{
+      margin-left: 90px;
+      font-size: 15px;
+      }
+      .right_section{
+        padding: 70px;
+      }
+      .mid_head{
+        font-size: 17px;
+      }
+      .second_head, .third_head{
+        font-size: 18px;
+      }
+    }
+
+     @media(max-width: 510px){
+       .bar_message{
+        width: 520px;
+      }
+      .bar_message h5{
+      margin-left: 70px;
+      font-size: 15px;
+      }
+
+     }
+
+     @media(max-width: 480px){
+       .bar_message{
+        width: 480px;
+      }
+      .bar_message h5{
+      margin-left: 70px;
+      font-size: 15px;
+      }
+
+     }
+
+      @media(max-width: 450px){
+       .bar_message{
+        width: 450px;
+      }
+      .bar_message h5{
+      margin-left: 70px;
+      font-size: 15px;
+      }
+
+     }
+
+@media(max-width: 420px){
+       .bar_message{
+        width: 420px;
+      }
+      .bar_message h5{
+      margin-left: 70px;
+      font-size: 15px;
+      }
+
+     }
+
+
+    @media(max-width: 395px){
+      .hoodie, .reciept, .multiple{
+        display: inline;
+      }
+      .leftdiv{
+        padding: 20px;
+      }
+      .bar_message{
+        width: 400px;
+      }
+      .bar_message h5{
+      margin-left: 60px;
+      font-size: 15px;
+      }
+      .right_section{
+        padding: 50px;
+      }
+      .mid_head{
+        font-size: 16px;
+      }
+      .second_head, .third_head{
+        font-size: 18px;
+      }
+    }
+    @media(max-width: 375px){
+      .mid_head{
+        font-size: 15px;
+      }
+      .bar_message{
+        width: 380px;
+      }
+      .bar_message h5{
+      margin-left: 60px;
+      font-size: 14px;
+      }
+
+    }
+    @media(max-width: 355px){
+      .mid_head{
+        font-size: 14px;
+      }
+      .bar_message{
+        width: 360px;
+      }
+      .bar_message h5{
+      margin-left: 60px;
+      font-size: 13px;
+      }
+
+    }
+
+    @media(max-width: 335px){
+      .mid_head{
+        font-size: 13px;
+      }
+      .bar_message{
+        width: 350px;
+      }
+      .bar_message h5{
+      margin-left: 60px;
+      font-size: 12px;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <!-- Left section begins--->
+    <div class="col-sm-12 col-md-6 col-lg-6 left_section">
+      <h4>Hello <span>Amit Lulla,</span></h4>
+      <h6 class="first_head">You have a reward balance of</h6>
+      <h6 class="mid_head">USD 24.10, 90 points, 30 diamonds, and n X</h6>
+      <div class="bar_message">
+        <h5>Redeemable currency available : <span>USD 24.10</span></h5>
+      </div>
+      <h6 class="second_head">Earn 1 Point for every <i class="fa fa-inr" aria-hidden="true"></i> 1.00 spend</h6>
+      <h6 class="third_head">100 Points gets you <i class="fa fa-inr" aria-hidden="true"></i>10.00</h6>
+      <button class="btn">Close</button>
+    </div>
+    <!-- Left section ends--->
+
+    <!-- Right section begins--->
+
+    <div class="col-sm-12 col-md-6 col-lg-6 right_section">
+      <h3 class="discounts">AVAILABLE DISCOUNTS</h3><br>
+      <!---First card--->
+      <div>
+        <div class="row">
+          <div class="col-sm-2 leftdiv" style="background-color: #8FC3FD;">
+            <span class="hoodie">HOODIE</span>
+          </div>
+          <div class="col-sm-10 details" style="background: linear-gradient(to left, #03E6D5 0%, #4C9FF5 100%); padding: 13px;">
+            <h1>15%</h1>
+            <h6>Discount on voo hodie upto 300 items</h6>
+            <h6>50% against 60 reward type: Smiles</h6>
+            <h4>ADD ITEM TO AVAIL DISCOUNT</h4>
+          </div>
+        </div>
+      </div>
+      <br>
+       <!---Second card--->
+      <div>
+        <div class="row">
+          <div class="col-sm-2 leftdiv" style="background-color: #FFC765;">
+            <span class="reciept">RECEIPTREWARD</span>
+          </div>
+          <div class="col-sm-10 details" style="background: linear-gradient(to right, #FFAE93 0%, #FC7D91 100%); padding: 13px;">
+            <h1>10%</h1>
+            <h6>Discount on reciept: 10% against</h6>
+            <h6>2 reward type: Diamond</h6>
+            <h4>BUY MORE TO GET DISCOUNT</h4>
+          </div>
+        </div>
+      </div>
+      <br>
+       <!---Third card--->
+      <div>
+        <div class="row">
+          <div class="col-sm-2 leftdiv" style="background-color: #DC7ADC;">
+            <span class="multiple">MULTIPLEITEM</span>
+          </div>
+          <div class="col-sm-10 details" style="background: linear-gradient(to right, #D4B6FF 0%, #A1BAFD 100%); padding: 13px;">
+            <h1>5%</h1>
+            <h6>Discount on polo T-shirts, sunglasses items</h6>
+            <h6>5% against 3 reward type: Smiles</h6>
+            <h4>ADD ITEM TO AVAIL DISCOUNT</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!---Second section ends--->
+
+  </div>
+</div>
+</body>
+</html>
